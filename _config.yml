@@ -16,12 +16,10 @@
 title: e-Notes
 email: auriza.akbar@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A place to bind my wandering thoughts.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: auriza.akbar
+url: "https://auriza.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: auriza_akbar
 github_username:  auriza
 
 # Build settings

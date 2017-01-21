@@ -45,7 +45,28 @@ kamu.
 
 ## Publikasi via GitHub Pages
 
-Setelah blog di localhost sudah jalan, kamu bisa publikasikan blog kamu melalui
-[GitHub Pages](https://pages.github.com/) secara gratis. Ikuti caranya di tautan
-tersebut. Nanti, blog kamu dapat diakses di alamat <https://username.github.io>,
-keren kan!
+Setelah blog di lokal sudah berjalan, kamu bisa publikasikan blogmu melalui
+[GitHub Pages](https://pages.github.com/). Nanti, blog kamu dapat diakses di
+alamat <https://username.github.io>, keren kan!
+
+Pertama, daftar dulu di [GitHub](https://github.com/) untuk mendapatkan
+*username*. Setelah itu, buat repo dengan nama *username*.github.io.
+Lalu, inisialisasi `git` di direktori blog kamu dan tambahkan repo *remote*
+GitHub tersebut (ganti `$username` di sini dengan *username* aktual kamu).
+
+~~~ sh
+sudo apt install git
+git init
+git remote add origin https://github.com/$username/$username.github.io.git
+~~~
+
+Selanjutnya, tiap selesai mengubah konten blog, *add* dan *commit* semua
+perubahan ke repo lokal dan *push* juga ke repo *remote*.
+
+~~~ sh
+git add --all
+git commit -m "first commit"
+git push -u origin master
+~~~
+
+Buka *browser* dan buka blog baru kamu di laman <https://username.github.io>.

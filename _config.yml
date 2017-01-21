@@ -19,7 +19,7 @@ github_username:  auriza
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 gems:
   - jekyll-feed
 exclude:
